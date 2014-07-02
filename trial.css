@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.left,.right{
+	width: 50%;
+}
+
+.left{
+	background: red;
+	float: left;
+}
+
+.right{
+	float: left; 
+	background: gray;
+}
+
+.left > span ,.right > span{
+	visibility: hidden;
+
+}
+
+.left:hover > span ,.right:hover > span{
+	visibility: visible;
+
+}
